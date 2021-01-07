@@ -7,13 +7,13 @@ function StepsHeader(){
             <h1 className="steps-title">
                 SIGAS AS <br /> ETAPAS
             </h1>
-            <ul className="step-items">
+            <ul className="steps-items">
                 <li>
-                    <span className="step-number">1</span>
+                    <span className="steps-number">1</span>
                     Selecione os produtos e localização.
                 </li>
                 <li>
-                <span className="step-number">2</span>
+                <span className="steps-number">2</span>
                 Depois clique em <strong> “ENVIAR PEDIDO”</strong>
                 </li>
             </ul>

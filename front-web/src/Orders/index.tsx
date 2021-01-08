@@ -4,7 +4,7 @@ import ProductList from './ProductsList';
 import StepsHeader from './StepHeads';
 import './Styles.css';
 import { product } from './types';
-
+import OrderLocation from './OrderLocation'
 function Orders(){
     const[products, setProducts] = useState<product[]>([]);
     
@@ -19,6 +19,7 @@ useEffect (() => {
         <div className="orders-container">
             <StepsHeader />
             <ProductList products={products} />
+            <OrderLocation />
         </div>
     )
 }

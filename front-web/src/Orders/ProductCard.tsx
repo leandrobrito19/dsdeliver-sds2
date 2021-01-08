@@ -16,11 +16,11 @@ function formatPrice(Price: number){
 
 function ProductCard({ product }: props){
     return (
-        <div className="orders-Card-container">
+        <div className="order-card-container">
             <h3 className="order-card-title">
                 {product.name }
             </h3>
-            <img src={product.imageUri} className="Order-card-image" alt={product.name} />
+            <img src={product.imageUri} className="order-card-image" alt={product.name} />
             <h3 className="order-card-price">
                  {formatPrice(product.price) }
             </h3>
